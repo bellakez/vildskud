@@ -4,30 +4,97 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://use.typekit.net/qrw1wqi.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qrw1wqi.css" />
     <title>Forside</title>
   </head>
   <body class="bg-black">
+    <!-- burgermenu starter her -->
+    <header class="header">
+      <a href="index.html" class="logo"></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <ul class="dropdown">
+          <li class="dropbtn">Program</li>
+          <div class="dropdown-content">
+            <a href="forstillinger.html">Forestillinger</a>
+            <a href="spilletider.html">Spilletider</a>
+            <a href="events.html">Events</a>
+          </div>
+        </ul>
+        <ul class="dropdown">
+          <li class="dropbtn">Deltag</li>
+          <div class="dropdown-content">
+            <a href="frivillig.html">Frivillig</a>
+            <a href="opencall.html">Open call</a>
+          </div>
+        </ul>
+        <ul class="dropdown">
+          <li class="dropbtn">Om os</li>
+          <div class="dropdown-content">
+            <a href="omvildskud.html">Om Vildskud</a>
+            <a href="teametbag.html">Teamet bag</a>
+          </div>
+        </ul>
+      </ul>
+    </header>
     <!-- SECTION1 -->
     <section id="section1_forside">
       <div class="relative">
-        <img class="w-full" src="forside/mobil.svg" alt="maske splashbillede">
+        <img class="w-full" src="forside/mobil.svg" alt="maske splashbillede" />
         <div class="absolute left-20 bottom-24 z-10">
-        <button class="">
-          KØB BILLETER
-        </button>
-        <button class="">
-          FORSTILLINGER
-        </button>
-      </div>
+          <button class="">KØB BILLETER</button>
+          <button class="">FORSTILLINGER</button>
+        </div>
       </div>
     </section>
     <!-- SECTION2 -->
     <section id="section2_forside">
+      <div class="udenom pt-14">
+        <h2 class="capitol pb-14">VILDSKUD FESTIVAL TILBYDER</h2>
+        <p>
+          En lille uge med scenekunst, skabt med og af uaghængige kunstner.
+          Oplev forestillinger og events i hjertet af København.
+        </p>
+        <div class="flex justify-center pt-14">
+          <button>UDFORSK</button>
+        </div>
+      </div>
     </section>
     <!-- SECTION3 -->
     <section id="section3_forside"></section>
-
+    <footer>
+      <div class="footerbaggrund_mobil mt-14">
+        <div class="flex justify-center pt-14">
+          <div class="w-1/2">
+            <p>
+              Vildskud er Københavns festival for uafhængig scenekunst. Vær med,
+              se med.
+            </p>
+            <a class="pt-7 text-[#f8ae90] underline-offset-2" href="#">
+              Privatlivspolitik</a
+            >
+            <a class="text-[#f8ae90]" href="#"> Cookielivspolitik</a>
+            <div class="flex justify-center pt-14">
+              <div class="logo_footer w-1/6"></div>
+            </div>
+            <div class="pt-36 text-center">
+              <h3>Se mere på</h3>
+              <div class="flex justify-center gap-4 pt-14 pb-14">
+                <div class="w-1/4">
+                  <img src="illustrationer/insta.svg" alt="" />
+                </div>
+                <div class="w-1/4">
+                  <img src="illustrationer/face.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script type="module" src="./main.js"></script>
   </body>
 </html>

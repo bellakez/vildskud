@@ -3,11 +3,13 @@ module.exports = {
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        "capitol": ['"Capitol"', "sans serif"],
-        "sans": ['"Arial"', "sans serif"],
-      },
+      // fontFamily: {
+      //   // "capitol": ['"Capitol"', "sans serif"],
+      //   // "sans": ['"Arial"', "sans serif"],
+      // },
     },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
+
+
