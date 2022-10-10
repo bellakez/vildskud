@@ -64,6 +64,9 @@
       background-size: 100%;
       background-repeat: no-repeat;
     }
+        .header ul {
+        overflow: hidden;
+    }
   }
 
   /* ____________ WEB ______________*/
@@ -137,7 +140,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: rgba(000, 0, 0, 0.3);
   }
 
