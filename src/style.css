@@ -7,22 +7,24 @@
   /* ____________ MOBIL ______________*/
   @media only screen and (min-width: 600px) {
     h1 {
-      font-family: "Saira Condensed", sans-serif;
+      font-family: "capitol", sans-serif;
       font-size: 1rem;
+      font-weight: 600;
+      font-style: normal;
       color: #ff4700;
     }
     h2 {
-      font-family: "Saira Condensed", sans-serif;
+      font-family: "arial", sans-serif;
       font-size: 0.8rem;
       color: #ff4700;
     }
     h3 {
-      font-family: "Saira Condensed", sans-serif;
+      font-family: "arial", sans-serif;
       font-size: 0.7rem;
       color: #ffd4c3;
     }
     p {
-      font-family: "Saira Condensed", sans-serif;
+      font-family: "arial", sans-serif;
       font-size: 0.6rem;
       color: #ffd4c3;
     }
@@ -31,19 +33,22 @@
   /* ____________ WEB ______________*/
   @media only screen and (min-width: 600px) {
     h1 {
-      font-family: "Saira Condensed", sans-serif;
+      font-family: "capitol", sans-serif;
       font-size: 1.2rem;
+      font-weight: 600;
+      font-style: normal;
+      color: #ff4700;
     }
     h2 {
-      font-family: "Saira Condensed", sans-serif;
+      font-family: "arial", sans-serif;
       font-size: 1rem;
     }
     h3 {
-      font-family: "Saira Condensed", sans-serif;
+      font-family: "arial", sans-serif;
       font-size: 0.8rem;
     }
     p {
-      font-family: "Saira Condensed", sans-serif;
+      font-family: "arial", sans-serif;
       font-size: 0.7rem;
     }
   }
