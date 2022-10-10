@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        // "unica-one": ['"Unica One"', "cursive"],
-        // "grape": ['"Grape Nuts"', "cursive"],
+        "capitol": ['"Capitol"', "sans serif"],
+        "sans": ['"Arial"', "sans serif"],
       },
     },
   },
