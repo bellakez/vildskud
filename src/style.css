@@ -39,19 +39,23 @@
       font-weight: 600;
       font-style: normal;
       text-align: center;
+      margin: 5px;
     }
     h2 {
       font-size: 1.3rem;
       color: #ff4700;
       text-align: center;
+      margin: 5px;
     }
     h3 {
       font-size: 1rem;
-      color: #ffd4c3;
+      color: #F8AE90;
+      margin: 5px;
     }
     p {
       font-size: 0.9rem;
       color: #ffd4c3;
+      margin: 5px;
     }
     .udenom {
       margin: 30px;
