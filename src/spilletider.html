@@ -6,10 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spilletider</title>
   </head>
+  <header class="header">
+    <a href="index.html" class="logo"></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"
+      ><span class="navicon"></span
+    ></label>
+    <ul class="menu">
+      <ul class="dropdown">
+        <li class="dropbtn">Program</li>
+        <div class="dropdown-content">
+          <a href="forstillinger.html">Forestillinger</a>
+          <a href="spilletider.html">Spilletider</a>
+          <a href="events.html">Events</a>
+        </div>
+      </ul>
+      <ul class="dropdown">
+        <li class="dropbtn">Deltag</li>
+        <div class="dropdown-content">
+          <a href="frivillig.html">Frivillig</a>
+          <a href="opencall.html">Open call</a>
+        </div>
+      </ul>
+      <ul class="dropdown">
+        <li class="dropbtn">Om os</li>
+        <div class="dropdown-content">
+          <a href="omvildskud.html">Om Vildskud</a>
+          <a href="teametbag.html">Teamet bag</a>
+        </div>
+      </ul>
+    </ul>
+  </header>
   <body class="bg-black">
     <div class="grid place-content-center">
-      <h1>SPILLETIDER</h1>
+      <h1 class="grid place-content-center pt-24">SPILLETIDER</h1>
     </div>
+    <div class="flex justify-center pt-14">
+      <img class="lg:w-4/6" src="illustrationer/tabel.svg" alt="" />
+    </div>
+    <footer>
+      <div class="footerbaggrund_mobil mt-14">
+        <div class="flex justify-center pt-14">
+          <div class="w-1/2">
+            <p>
+              Vildskud er Københavns festival for uafhængig scenekunst. Vær med,
+              se med.
+            </p>
+            <a class="pt-7 text-[#f8ae90] underline-offset-2" href="#">
+              Privatlivspolitik</a
+            >
+            <a class="text-[#f8ae90]" href="#"> Cookielivspolitik</a>
+            <div class="flex justify-center pt-14">
+              <div class="logo_footer w-1/6"></div>
+            </div>
+            <div class="pt-36 text-center">
+              <h3>Se mere på</h3>
+              <div class="flex justify-center gap-4 pt-14 pb-14">
+                <div class="w-1/4">
+                  <img src="illustrationer/insta.svg" alt="" />
+                </div>
+                <div class="w-1/4">
+                  <img src="illustrationer/face.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./main.js"></script>
   </body>
-  <script type="module" src="./main.js"></script>
 </html>
