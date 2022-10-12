@@ -388,21 +388,20 @@
 
 /* HER ER DROP DOWN KNAPPER TIL FORESTILLINGER */
 
-
 .dropdown_info {
-  width : 300px; 
+  width: 300px;
   background: #ffd4c3c6;
-  margin : 40px auto; 
+  margin: 40px auto;
   overflow: hidden;
 }
 
 .dropdown_span {
-  padding : 30px;
-  background : #ffd4c3; 
-  color : black;
-  font-size : 1.2em;
-  font-variant : small-caps;
-  cursor : pointer;
+  padding: 30px;
+  background: #ffd4c3;
+  color: black;
+  font-size: 1.2em;
+  font-variant: small-caps;
+  cursor: pointer;
   display: block;
 }
 
@@ -413,14 +412,68 @@
 }
 
 .slide {
-  clear:both;
-  width:100%;
-  height:0px;
-  transition: height .4s ease;
+  clear: both;
+  width: 100%;
+  height: 0px;
+  transition: height 0.4s ease;
 }
 
-.slide li {padding : 30px;}
+.slide li {
+  padding: 30px;
+}
 
-#touch {position: absolute; opacity: 0; height: 0px;}    
+#touch {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
 
-#touch:checked + .slide {height: 600px;} 
+#touch:checked + .slide {
+  height: 650px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LÆS MERE */
+
+.dropdown_info_mere {
+  width: 300px;
+  background: black;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span_mere {
+  padding: 30px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1.2em;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_mere::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  clear: both;
+  width: 100%;
+  height: 0px;
+  transition: height 0.4s ease;
+}
+
+.slide li {
+  padding: 30px;
+}
+
+#touch_mere {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_mere:checked + .slide {
+  height: 600px;
+}
