@@ -82,7 +82,7 @@
 
   /* ____________ WEB ______________*/
   @media only screen and (min-width: 600px) {
-    .forsidebillede_w {
+    .forsidebillede_m {
       background-image: url(forside/web.svg);
       aspect-ratio: 1369/767;
       position: relative;
