@@ -22,6 +22,13 @@
 @layer components {
   /* ____________MOBIL ______________*/
   @media only screen and (max-width: 600px) {
+    .forsidebillede_m {
+      background-image: url(forside/mobil.svg);
+      aspect-ratio: 521/767;
+      position: relative;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
     button {
       border: solid 2px #f8ae90;
       color: #f8ae90;
@@ -75,6 +82,14 @@
 
   /* ____________ WEB ______________*/
   @media only screen and (min-width: 600px) {
+    .forsidebillede_w {
+      background-image: url(forside/web.svg);
+      aspect-ratio: 1369/767;
+      position: relative;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
     button {
       border: solid 2px #f8ae90;
       color: #f8ae90;
