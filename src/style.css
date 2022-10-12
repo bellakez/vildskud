@@ -77,6 +77,7 @@
     }
     .header ul {
       overflow: hidden;
+      
     }
   }
 
@@ -385,6 +386,99 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
+
+/*DROP DOWN MENU */
+@media only screen and (max-width: 600px) {
+  .dropbtn_hoved_menu {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn_hoved_menu:hover,
+  .dropbtn_hoved_menu:focus {
+    background-color: rgb(159, 93, 93);
+  }
+
+  .dropdown_hoved_menu {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content_program {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+  }
+
+  .dropdown-content_program a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content_program a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+}
+/* DROPDOWN HOVED MENU BEGYNDER*/
+.dropbtn_hoved_menu {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn_hoved_menu:hover,
+.dropbtn_hoved_menu:focus {
+  background-color: rgb(159, 93, 93);
+}
+
+.dropdown_hoved_menu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content_program {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content_program a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content_program a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+/* HOVEDMENUEN DROPDOWN */
 
 /* HER ER DROP DOWN KNAPPER TIL FORESTILLINGER */
 
