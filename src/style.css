@@ -575,7 +575,7 @@ li {
 }
 
 #touch_mere2:checked + .slide {
-  height: 850px;
+  height: 700px;
 }
 
 /* HER ER DROP DOWN KNAPPER TIL LOKATION */
@@ -684,7 +684,7 @@ li {
 }
 
 #touch_mere3:checked + .slide {
-  height: 850px;
+  height: 500px;
 }
 
 /* HER ER DROP DOWN KNAPPER TIL LOKATION */
@@ -720,5 +720,223 @@ li {
 }
 
 #touch_lokation3:checked + .slide {
+  height: 250px;
+}
+
+/* ___________________FJERDE DROPDOWN______________ */
+
+/* HER ER DROP DOWN KNAPPER TIL FORESTILLINGER */
+
+.dropdown_info4 {
+  width: 300px;
+  background: #ffd4c3c6;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span4 {
+  padding: 20px;
+  background: #ffd4c3;
+  color: black;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span4::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch4 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch4:checked + .slide {
+  height: 650px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LÆS MERE */
+
+.dropdown_info_mere4 {
+  width: 300px;
+  background: black;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span_mere4 {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_mere4::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+#touch_mere4 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_mere4:checked + .slide {
+  height: 500px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LOKATION */
+
+.dropdown_info_lokation4 {
+  width: 300px;
+  background: black;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dropdown_span_lokation4 {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_lokation4::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch_lokation4 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_lokation4:checked + .slide {
+  height: 250px;
+}
+
+/* ___________________FEMTE DROPDOWN______________ */
+
+/* HER ER DROP DOWN KNAPPER TIL FORESTILLINGER */
+
+.dropdown_info5 {
+  width: 300px;
+  background: #ffd4c3c6;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span5 {
+  padding: 20px;
+  background: #ffd4c3;
+  color: black;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span5::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch5 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch5:checked + .slide {
+  height: 650px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LÆS MERE */
+
+.dropdown_info_mere5 {
+  width: 300px;
+  background: black;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span_mere5 {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_mere5::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+#touch_mere5 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_mere5:checked + .slide {
+  height: 800px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LOKATION */
+
+.dropdown_info_lokation5 {
+  width: 300px;
+  background: black;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dropdown_span_lokation5 {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_lokation5::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch_lokation5 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_lokation5:checked + .slide {
   height: 250px;
 }
