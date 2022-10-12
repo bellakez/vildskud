@@ -386,98 +386,7 @@
   }
 }
 
-/*DROP DOWN MENU */
-@media only screen and (max-width: 600px) {
-  .dropbtn_hoved_menu {
-    background-color: black;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
 
-  .dropbtn_hoved_menu:hover,
-  .dropbtn_hoved_menu:focus {
-    background-color: rgb(159, 93, 93);
-  }
-
-  .dropdown_hoved_menu {
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-content_program {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 100;
-  }
-
-  .dropdown-content_program a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
-  .dropdown-content_program a:hover {
-    background-color: #ddd;
-  }
-
-  .show {
-    display: block;
-  }
-}
-/* DROPDOWN HOVED MENU BEGYNDER*/
-.dropbtn_hoved_menu {
-  background-color: black;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn_hoved_menu:hover,
-.dropbtn_hoved_menu:focus {
-  background-color: rgb(159, 93, 93);
-}
-
-.dropdown_hoved_menu {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content_program {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content_program a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content_program a:hover {
-  background-color: #ddd;
-}
-
-.show {
-  display: block;
-}
-
-/* HOVEDMENUEN DROPDOWN */
 
 /* HER ER DROP DOWN KNAPPER TIL FORESTILLINGER */
 
@@ -489,10 +398,10 @@
 }
 
 .dropdown_span {
-  padding: 30px;
+  padding: 20px;
   background: #ffd4c3;
   color: black;
-  font-size: 1.2em;
+  font-size: 1rem;
   font-variant: small-caps;
   cursor: pointer;
   display: block;
@@ -510,9 +419,8 @@
   height: 0px;
   transition: height 0.4s ease;
 }
-
-.slide li {
-  padding: 30px;
+li {
+    padding: 10px;
 }
 
 #touch {
@@ -535,10 +443,10 @@
 }
 
 .dropdown_span_mere {
-  padding: 30px;
+  padding: 20px;
   background: black;
   color: #ffd4c3;
-  font-size: 1.2em;
+  font-size: 1rem;
   font-variant: small-caps;
   cursor: pointer;
   display: block;
@@ -550,17 +458,6 @@
   content: "+";
 }
 
-.slide {
-  clear: both;
-  width: 100%;
-  height: 0px;
-  transition: height 0.4s ease;
-}
-
-.slide li {
-  padding: 30px;
-}
-
 #touch_mere {
   position: absolute;
   opacity: 0;
@@ -569,4 +466,259 @@
 
 #touch_mere:checked + .slide {
   height: 600px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LOKATION */
+
+.dropdown_info_lokation {
+  width: 300px;
+  background: black;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dropdown_span_lokation {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_lokation::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch_lokation {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_lokation:checked + .slide {
+  height: 250px;
+}
+
+
+/* ___________________ANDEN DROPDOWN______________ */
+
+/* HER ER DROP DOWN KNAPPER TIL FORESTILLINGER */
+
+.dropdown_info2 {
+  width: 300px;
+  background: #ffd4c3c6;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span2 {
+  padding: 20px;
+  background: #ffd4c3;
+  color: black;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span2::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch2 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch2:checked + .slide {
+  height: 650px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LÆS MERE */
+
+.dropdown_info_mere2 {
+  width: 300px;
+  background: black;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span_mere2 {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_mere2::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+#touch_mere2 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_mere2:checked + .slide {
+  height: 850px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LOKATION */
+
+.dropdown_info_lokation2 {
+  width: 300px;
+  background: black;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dropdown_span_lokation2 {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_lokation2::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch_lokation2 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_lokation2:checked + .slide {
+  height: 250px;
+}
+
+/* ___________________TREDJE DROPDOWN______________ */
+
+/* HER ER DROP DOWN KNAPPER TIL FORESTILLINGER */
+
+.dropdown_info3 {
+  width: 300px;
+  background: #ffd4c3c6;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span3 {
+  padding: 20px;
+  background: #ffd4c3;
+  color: black;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span3::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch3 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch3:checked + .slide {
+  height: 650px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LÆS MERE */
+
+.dropdown_info_mere3 {
+  width: 300px;
+  background: black;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span_mere3 {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_mere3::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+#touch_mere3 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_mere3:checked + .slide {
+  height: 850px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LOKATION */
+
+.dropdown_info_lokation3 {
+  width: 300px;
+  background: black;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dropdown_span_lokation3 {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_lokation3::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch_lokation3 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_lokation3:checked + .slide {
+  height: 250px;
 }
