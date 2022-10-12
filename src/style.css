@@ -123,6 +123,13 @@
       font-size: 1.1rem;
       color: #ffd4c3;
     }
+
+    .footerbaggrund_mobil {
+      background-image: url(illustrationer/footer_web.svg);
+      position: relative;
+      background-size: 100%;
+      background-repeat: repeat;
+    }
   }
 
   .logo {
