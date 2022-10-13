@@ -1158,3 +1158,155 @@ li {
 #touch_lokation7:checked + .slide {
   height: 250px;
 }
+
+
+/* _______________________EVENTS SIDEN___________________ */
+
+/* FØRSTE SECTION  */
+
+/* HER ER DROP DOWN KNAPPER TIL KØB */
+
+.dropdown_info8 {
+  width: 300px;
+  background: #ffd4c3c6;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span8 {
+  padding: 20px;
+  background: #ffd4c3;
+  color: black;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span8::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch8 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch8:checked + .slide {
+  height: 150px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LOKATION */
+
+.dropdown_info_lokation8 {
+  width: 300px;
+  background: black;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dropdown_span_lokation8 {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_lokation8::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch_lokation8 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_lokation8:checked + .slide {
+  height: 250px;
+}
+
+
+/*_________ANDEN SECTION_____  */
+
+/* HER ER DROP DOWN KNAPPER TIL KØB */
+
+.dropdown_info9 {
+  width: 300px;
+  background: #ffd4c3c6;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span9 {
+  padding: 20px;
+  background: #ffd4c3;
+  color: black;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span9::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch9 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch9:checked + .slide {
+  height: 150px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LOKATION */
+
+.dropdown_info_lokation9 {
+  width: 300px;
+  background: black;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dropdown_span_lokation9 {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_lokation9::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+
+#touch_lokation9 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_lokation9:checked + .slide {
+  height: 250px;
+}
