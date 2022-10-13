@@ -15,29 +15,30 @@
       <label class="menu-icon" for="menu-btn"
         ><span class="navicon"></span
       ></label>
+      <!-- hovedmenu starter her -->
       <ul class="menu">
-        <ul class="dropdown">
-          <li class="dropbtn">Program</li>
-          <div class="dropdown-content">
+        <div class="dropdown_hoved_menu">
+          <button class="dropbtn_hoved_menu">Program</button>
+          <div id="myDropdownProgram" class="dropdown-content_program">
             <a href="forstillinger.html">Forestillinger</a>
             <a href="spilletider.html">Spilletider</a>
             <a href="events.html">Events</a>
           </div>
-        </ul>
-        <ul class="dropdown">
-          <li class="dropbtn">Deltag</li>
-          <div class="dropdown-content">
+        </div>
+        <div class="dropdown_hoved_menu_deltag">
+          <button class="dropbtn_deltag">Deltag</button>
+          <div id="myDropdownDeltag" class="dropdown-content_deltag">
             <a href="frivillig.html">Frivillig</a>
             <a href="opencall.html">Open call</a>
           </div>
-        </ul>
-        <ul class="dropdown">
-          <li class="dropbtn">Om os</li>
-          <div class="dropdown-content">
-            <a href="omvildskud.html">Om Vildskud</a>
-            <a href="teametbag.html">Teamet bag</a>
+        </div>
+        <div class="dropdown_os">
+          <button class="dropbtn_os">Om os</button>
+          <div id="myDropdownOs" class="dropdown-content_os">
+            <a href="omvildskud.html">Om vildskud</a>
+            <a href="teametbag.html">Teamet Bag</a>
           </div>
-        </ul>
+        </div>
       </ul>
     </header>
     <!-- SECTION1 -->
@@ -107,8 +108,8 @@
               Har du ris, ros, spørgsmål eller kommentarer til websitet, kan du:
             </h3>
           </div>
-          <div class="text-center pt-14">
-            <a class="text-[#FF4800] underline-offset-2 text-center" href="#"
+          <div class="pt-14 text-center">
+            <a class="text-center text-[#FF4800] underline-offset-2" href="#"
               >Kontakte Stefan</a
             >
           </div>
@@ -119,31 +120,33 @@
     <footer>
       <div class="footerbaggrund_mobil mt-14">
         <div class="pt-14">
-          <div class="sm:flex sm:justify-center lg:flex lg:justify-evenly lg:gap-8 md:flex md:justify-evenly md:gap-8">
-        <!-- her 1 box -->
-        <div class="p-10 lg:p-20 md:p-10">
-            <div class="">
+          <div
+            class="sm:flex sm:justify-center md:flex md:justify-evenly md:gap-8 lg:flex lg:justify-evenly lg:gap-8"
+          >
+            <!-- her 1 box -->
+            <div class="p-10 md:p-10 lg:p-20">
+              <div class="">
                 <h3 class="text-center">Vildskud</h3>
-              <p class="pt-7">
-                Vildskud er Københavns festival for uafhængig scenekunst. Vær
-                med, se med.
-              </p>
+                <p class="pt-7">
+                  Vildskud er Københavns festival for uafhængig scenekunst. Vær
+                  med, se med.
+                </p>
+              </div>
+              <div class="pt-7">
+                <a class="pt-7 text-[#f8ae90] underline-offset-2" href="#">
+                  Privatlivspolitik</a
+                >
+              </div>
+              <div>
+                <a class="text-[#f8ae90]" href="#"> Cookielivspolitik</a>
+              </div>
             </div>
-            <div class="pt-7">
-              <a class="pt-7 text-[#f8ae90] underline-offset-2" href="#">
-                Privatlivspolitik</a
-              >
-            </div>
-            <div>
-              <a class="text-[#f8ae90]" href="#"> Cookielivspolitik</a>
-            </div>
-        </div>
-        <!-- her 2 box -->
-            <div class="flex justify-center pt-14 lg:p-20 md:p-10">
+            <!-- her 2 box -->
+            <div class="flex justify-center pt-14 md:p-10 lg:p-20">
               <div class="logo_footer w-1/6 md:w-1/12 lg:w-1/12"></div>
             </div>
-         <!-- her 3 box -->
-            <div class="pt-36 text-center lg:p-20 md:p-10">
+            <!-- her 3 box -->
+            <div class="pt-36 text-center md:p-10 lg:p-20">
               <h3>Se mere på</h3>
               <div class="flex justify-center gap-4 pt-14 pb-14">
                 <div class="w-1/4 md:w-1/4 lg:w-1/6">
