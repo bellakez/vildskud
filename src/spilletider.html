@@ -6,35 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spilletider</title>
   </head>
+  <!-- burgermenu starter her -->
   <header class="header">
     <a href="index.html" class="logo"></a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"
       ><span class="navicon"></span
     ></label>
+    <!-- hovedmenu starter her -->
     <ul class="menu">
-      <ul class="dropdown">
-        <li class="dropbtn">Program</li>
-        <div class="dropdown-content">
+      <div class="dropdown_hoved_menu">
+        <button class="dropbtn_hoved_menu">Program</button>
+        <div id="myDropdownProgram" class="dropdown-content_program">
           <a href="forstillinger.html">Forestillinger</a>
           <a href="spilletider.html">Spilletider</a>
           <a href="events.html">Events</a>
         </div>
-      </ul>
-      <ul class="dropdown">
-        <li class="dropbtn">Deltag</li>
-        <div class="dropdown-content">
+      </div>
+      <div class="dropdown_hoved_menu_deltag">
+        <button class="dropbtn_deltag">Deltag</button>
+        <div id="myDropdownDeltag" class="dropdown-content_deltag">
           <a href="frivillig.html">Frivillig</a>
           <a href="opencall.html">Open call</a>
         </div>
-      </ul>
-      <ul class="dropdown">
-        <li class="dropbtn">Om os</li>
-        <div class="dropdown-content">
-          <a href="omvildskud.html">Om Vildskud</a>
-          <a href="teametbag.html">Teamet bag</a>
+      </div>
+      <div class="dropdown_os">
+        <button class="dropbtn_os">Om os</button>
+        <div id="myDropdownOs" class="dropdown-content_os">
+          <a href="omvildskud.html">Om vildskud</a>
+          <a href="teametbag.html">Teamet Bag</a>
         </div>
-      </ul>
+      </div>
     </ul>
   </header>
   <body class="bg-black">
