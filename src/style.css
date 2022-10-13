@@ -22,6 +22,9 @@
 @layer components {
   /* ____________MOBIL ______________*/
   @media only screen and (max-width: 600px) {
+    .hidden_menu {
+      display: block;
+    }
     .forsidebillede_m {
       background-image: url(forside/mobil.svg);
       aspect-ratio: 521/767;
@@ -83,6 +86,10 @@
 
   /* ____________ WEB ______________*/
   @media only screen and (min-width: 600px) {
+    .hidden_menu {
+      display: block;
+    }
+
     .forsidebillede_m {
       background-image: url(forside/web.svg);
       aspect-ratio: 1369/767;
@@ -1557,3 +1564,6 @@ li {
   height: 250px;
 }
 
+.hidden_menu {
+  display: block;
+}

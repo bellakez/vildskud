@@ -5,8 +5,8 @@ const acceptCookie = document.querySelector("#accepter");
 const denyCookie = document.querySelector("#afvis");
 const cookieboks = document.querySelector("#cookieboks");
 
-acceptCookie.addEventListener("click", fjernCookieBoks);
-denyCookie.addEventListener("click", fjernCookieBoks);
+acceptCookie.addEventListener("mousedown", fjernCookieBoks);
+denyCookie.addEventListener("mousedown", fjernCookieBoks);
 
 function fjernCookieBoks() {
   cookieboks.classList.add("hidden");
@@ -51,7 +51,7 @@ function myFunctionOmos() {
 document.querySelector(".menu-btn").addEventListener("click", FunctionFjern);
 
 function FunctionFjern() {
-  document.querySelector(".menu ul").classList.toggle("hidden");
+  document.querySelector(".menu ul").classList.toggle("hidden_menu");
   console.log("vis");
 }
 
