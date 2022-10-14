@@ -1460,7 +1460,7 @@ li {
 }
 
 #touch8:checked + .slide {
-  height: 150px;
+  height: 200px;
 }
 
 /* HER ER DROP DOWN KNAPPER TIL LOKATION */
@@ -1532,7 +1532,7 @@ li {
 }
 
 #touch9:checked + .slide {
-  height: 150px;
+  height:200px;
 }
 
 /* HER ER DROP DOWN KNAPPER TIL LOKATION */
@@ -1567,6 +1567,83 @@ li {
 }
 
 #touch_lokation9:checked + .slide {
+  height: 250px;
+}
+
+.hidden_menu {
+  display: block;
+}
+
+
+/*_________TREDJE SECTION_____  */
+
+/* HER ER DROP DOWN KNAPPER TIL KØB */
+
+.dropdown_info10 {
+  width: 300px;
+  background: #ffd4c3c6;
+  margin: 40px auto;
+  overflow: hidden;
+}
+
+.dropdown_span10 {
+  padding: 20px;
+  background: #ffd4c3;
+  color: black;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span10::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+#touch10 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch10:checked + .slide {
+  height: 200px;
+}
+
+/* HER ER DROP DOWN KNAPPER TIL LOKATION */
+
+.dropdown_info_lokation10 {
+  width: 300px;
+  background: black;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dropdown_span_lokation10 {
+  padding: 20px;
+  background: black;
+  color: #ffd4c3;
+  font-size: 1rem;
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown_span_lokation10::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+#touch_lokation10 {
+  position: absolute;
+  opacity: 0;
+  height: 0px;
+}
+
+#touch_lokation10:checked + .slide {
   height: 250px;
 }
 

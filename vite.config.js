@@ -21,6 +21,7 @@ export default defineConfig({
         sitemap: resolve(__dirname, "src/sitemap.html"),
         spilletider: resolve(__dirname, "src/spilletider.html"),
         teametbag: resolve(__dirname, "src/teametbag.html"),
+        frivillig: resolve(__dirname, "src/frivillig.html"),
         // about: resolve(__dirname, "src/about.html"),
       },
     },
