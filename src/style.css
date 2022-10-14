@@ -779,7 +779,7 @@ li {
 }
 
 #touch_lokation:checked + .slide {
-  height: 250px;
+  height: 100px;
 }
 
 /* ___________________ANDEN DROPDOWN______________ */
@@ -886,7 +886,7 @@ li {
 }
 
 #touch_lokation2:checked + .slide {
-  height: 250px;
+  height: 100px;
 }
 
 /* ___________________TREDJE DROPDOWN______________ */
@@ -993,7 +993,7 @@ li {
 }
 
 #touch_lokation3:checked + .slide {
-  height: 250px;
+  height: 100px;
 }
 
 /* ___________________FJERDE DROPDOWN______________ */
@@ -1100,7 +1100,7 @@ li {
 }
 
 #touch_lokation4:checked + .slide {
-  height: 250px;
+ height: 100px;
 }
 
 /* ___________________FEMTE DROPDOWN______________ */
@@ -1207,7 +1207,7 @@ li {
 }
 
 #touch_lokation5:checked + .slide {
-  height: 250px;
+  height: 100px;
 }
 
 /* ___________________SJETE DROPDOWN______________ */
@@ -1314,7 +1314,7 @@ li {
 }
 
 #touch_lokation6:checked + .slide {
-  height: 250px;
+  height: 100px;
 }
 
 /* ___________________SYVENDE DROPDOWN______________ */
@@ -1421,7 +1421,7 @@ li {
 }
 
 #touch_lokation7:checked + .slide {
-  height: 250px;
+  height: 100px;
 }
 
 /* _______________________EVENTS SIDEN___________________ */
