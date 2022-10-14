@@ -33,7 +33,7 @@
       aspect-ratio: 521/767;
       position: relative;
       background-size: 100%;
-      background-repeat: no-repeat;
+      background-repeat: repeat;
     }
     button {
       border: solid 2px #f8ae90;
